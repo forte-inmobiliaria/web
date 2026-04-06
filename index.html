@@ -14,7 +14,8 @@
  <ul>
  <li><a href="#inicio">Inicio</a></li>
  <li><a href="#nosotros">Nosotros</a></li>
- <li><a href="#redes">Redes Sociales</a></li> <li><a href="#asesor">Asesor</a></li>
+ <li><a href="#redes">Redes Sociales</a></li> 
+ <li><a href="#asesor">Asesor</a></li>
  <li><a href="#contacto">Contacto</a></li>
  </ul>
  </nav>
@@ -24,7 +25,8 @@
  <section id="inicio" class="hero">
  <h1>Encuentra el hogar de tus sueños</h1>
  <p>Te ayudamos a encontrar la propiedad perfecta para ti y tu familia.</p>
- <a href="#redes" class="button">Síguenos en redes</a> </section>
+ <a href="#redes" class="button">Síguenos en redes</a> 
+ </section>
 
  <section id="nosotros" class="section">
  <h2>Acerca de Nosotros</h2>
@@ -38,17 +40,17 @@
  <div class="property-grid">
  
  <div class="property-card">
- <i class="fab fa-facebook" style="font-size: 2rem; color: #007bff;"></i>
+ <i class="fab fa-facebook" style="font-size: 2rem; color: #1877F2;"></i>
  <h3>Facebook</h3>
  <p>Mira fotos y videos exclusivos de las mejores propiedades de la zona.</p>
- <a href="https://www.facebook.com/people/Forte-Inmobiliaria/100044615719228/" target="_blank" class="button">Facebook</a>
+ <a href="https://www.facebook.com/people/Forte-Inmobiliaria/100044615719228/" target="_blank" class="button">Ir a Facebook</a>
  </div>
 
  <div class="property-card">
- <i class="fab fa-whatsapp" style="font-size: 2rem; color: #007bff;"></i>
- <h3>Whatsapp</h3>
- <p>Contactame y negocía nuestras propiedades disponibles</p>
- <a href="https://wa.me/5213310810477" target="_blank" class="button">Envia un mensaje</a>
+ <i class="fab fa-whatsapp" style="font-size: 2rem; color: #25D366;"></i>
+ <h3>WhatsApp</h3>
+ <p>Contáctame y negocia nuestras propiedades disponibles.</p>
+ <a href="https://wa.me/5213310810477" target="_blank" class="button">Enviar mensaje</a>
  </div>
 
  </div>
@@ -59,7 +61,7 @@
  <div class="asesor-info">
  <h3>Ricardo Cervera</h3>
  <p>Asesor Inmobiliario</p>
- <p>Especialista en Bienes Raices,Opiniones de Valor, Avalúos y Tramitología, Apoyo en la Gestión de Créditos.</p>
+ <p>Especialista en Bienes Raíces, Opiniones de Valor, Avalúos y Tramitología, Apoyo en la Gestión de Créditos.</p>
  <p>Conoce las mejores opciones del mercado para ti.</p>
  <p>Contáctame para una atención personalizada.</p>
  <a href="mailto:forte.inmobiliaria@mail.com" class="button">Contactar por correo</a>
@@ -69,11 +71,23 @@
 
  <section id="contacto" class="section contact-section">
  <h2>Contacto</h2>
- <p>¿Tienes alguna pregunta o necesitas más información?</p>
- <p>No dudes en ponerte en contacto con nosotros.</p>
- <p>Puedes enviarnos un mensaje o llamarnos.</p>
- <p>Teléfono: +52 3310810477</p>
- <p>Correo electrónico: forte.inmobiliaria@mail.com</p>
+ <p>Envíanos un mensaje y te contactaremos a la brevedad.</p>
+ 
+ <form action="https://formspree.io/f/forte.inmobiliaria@mail.com" method="POST" style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+    <input type="text" name="nombre" placeholder="Nombre completo" required style="padding: 12px; border-radius: 8px; border: 1px solid #ddd;">
+    <input type="email" name="_replyto" placeholder="Tu correo electrónico" required style="padding: 12px; border-radius: 8px; border: 1px solid #ddd;">
+    <input type="tel" name="telefono" placeholder="Tu teléfono" required style="padding: 12px; border-radius: 8px; border: 1px solid #ddd;">
+    <textarea name="mensaje" placeholder="¿En qué podemos ayudarte?" rows="4" required style="padding: 12px; border-radius: 8px; border: 1px solid #ddd; font-family: sans-serif;"></textarea>
+    
+    <input type="text" name="_gotcha" style="display:none">
+    
+    <button type="submit" class="button">Enviar Mensaje</button>
+ </form>
+
+ <div style="margin-top: 30px; font-size: 0.9rem;">
+    <p>Teléfono: +52 3310810477</p>
+    <p>Correo electrónico: forte.inmobiliaria@mail.com</p>
+ </div>
  </section>
  </main>
 
